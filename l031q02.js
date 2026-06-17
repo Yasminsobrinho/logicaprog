@@ -30,3 +30,4 @@ console.log(`soma: ${num1} + ${num2} + ${num3} + ${num4} = ${soma}`);
 mult = num1 * num2 * num3 * num4;
 console.log(`a multiplicação dos 4 valores inseridos é ${mult}`);
 console.log(`Multiplicação: ${num1} x ${num2} x ${num3} x ${num4} = ${mult}`);
+// comentário inserido em 17/06/26
