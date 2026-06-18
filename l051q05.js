@@ -16,6 +16,6 @@ let acum;
 
 while ( cont <= 10 ){
     acum = num * cont
-    console.log ( `${num} . ${cont} =  ${acum}`)
+    console.log ( `${num} . ${cont} =  ${acum}`);
     cont = cont + 1;
 }
