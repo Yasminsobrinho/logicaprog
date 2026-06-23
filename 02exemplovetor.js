@@ -1,10 +1,13 @@
 // ASSUNTO: VETORES
 
-// vetor com nomed de alunos
+// vetor com nomes de alunos
 let alunos = ["Ana", "Bruno", "Carlos", "Diana"];
 
 // vetor com notas de alunos
 let notas = [8.5 , 3 , 8 , 10];
+
+// vetor de números
+let numeros = [6, 23, -7, 18, 4, 92, 15, 33, 0, 50];
 
  console.log(alunos); // exibe os dados do vetor todo
  console.log(alunos[3]); // exibir diana
@@ -44,18 +47,29 @@ alunos.forEach(function(aluno, indice){
 
 // método PUSH, UNSHIFT, POP e SHIFT
 
-//PUSH - adiciona ao final do vetor
+// PUSH - adiciona ao final do vetor
 alunos.push("raimundo");
 console.log(alunos); 
 
-//POP - remove do final do vetor
+// POP - remove do final do vetor
 alunos.pop();
 console.log(alunos);
 
-//UNSHIFT - adiciona ao inicio do vetor
+// UNSHIFT - adiciona ao inicio do vetor
 alunos.unshift("raimundo");
 console.log(alunos);
 
-//SHIFT - remove do início do vetor
+// SHIFT - remove do início do vetor
 alunos.shift();
 console.log(alunos);
+
+console.log(numeros);
+
+// ordem crescente
+numeros.sort( (a, b) => a - b );
+console.log(numeros);
+
+// ordem decrescente
+numeros.sort( (a ,b) => b - a );
+console.log(numeros);
+
