@@ -3,7 +3,7 @@
 // passando o valor 10 e exiba o resultado no console.
 
 function calcularTriplo( a ) {
-    mult = a * 3;
+    let mult = a * 3;
     return mult;
 }
 console.log(calcularTriplo(2));
